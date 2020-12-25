@@ -10,7 +10,7 @@
             <li><router-link to="/">  <a href="">Home</a> </router-link></li>
             <li style="position: relative" v-on:click="activateMale = !activateMale" @mouseleave="activateM">
               <router-link to="">Nam</router-link>
-              <div class="menu-male" style="position: absolute" v-show="activateMale">
+              <div class="menu-male" style="position: absolute;z-index: 999;" v-show="activateMale">
                 <router-link to="/Category"><div>Quần áo</div></router-link>
                 <div>Giày</div>
                 <div>Phụ kiện</div>
@@ -20,7 +20,7 @@
             </li>
             <li style="position:relative" v-on:click="activateFemale = !activateFemale" @mouseleave="activateF" >
               <router-link to="/">Nữ</router-link>
-              <div class="menu-female" style="position: absolute" v-show="activateFemale">
+              <div class="menu-female" style="position: absolute; z-index: 999;" v-show="activateFemale">
                 <div>Quần áo</div>
                 <div>Giày</div>
                 <div>Phụ kiện</div>
