@@ -230,6 +230,7 @@ p.content-title-section-2 {
 @media screen and (max-width: 991px) {
     .detail-right {
         position: initial !important;
+        border-top: 1px solid gainsboro;
     }
 }
 </style>
