@@ -227,4 +227,9 @@ p.content-title-section-2 {
     background-color: #ff4700;
     cursor: pointer;
 }
+@media screen and (max-width: 991px) {
+    .detail-right {
+        position: initial !important;
+    }
+}
 </style>
